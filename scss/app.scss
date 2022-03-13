@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 
 body {
-	background-color: salmon;
+	background-color: rgb(161, 162, 167);
 	font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+	// :active {
+	// 	color: rgb(39, 3, 39);
+	// }
+
+	:hover {
+		color: rgb(97, 98, 102);
+	}
+}
+
+footer {
+	i {
+		color: white;
+	}
 }
