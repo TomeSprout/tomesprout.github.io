@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+@import "layout/footer";
+@import 'pages/home';
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
 
 body {
 	background-color: rgb(161, 162, 167);
@@ -12,13 +15,7 @@ a {
 	// 	color: rgb(39, 3, 39);
 	// }
 
-	:hover {
+	&:hover {
 		color: rgb(97, 98, 102);
-	}
-}
-
-footer {
-	i {
-		color: white;
 	}
 }
