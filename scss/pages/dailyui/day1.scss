@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:wght@300;400;500&display=swap');
 
+.global-home-btn {
+	position: absolute;
+	color: orange;
+	z-index: 100;
+}
+
 body {
 	font-family: 'Ubuntu', sans-serif;
 	min-height: 100vh;
