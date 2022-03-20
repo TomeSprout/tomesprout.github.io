@@ -1,9 +1,38 @@
-footer {
-	i {
-		color: rgb(255, 255, 255);
+.footer-container {
+	min-height: 94vh;
+	position: relative;
 
-		&:hover {
-			color: rgb(97, 98, 102);
+	.footer-social {
+		align-items: center;
+		background: darkgray;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		width: 100%;
+		// height: 10rem;
+
+		.footer-social-icons {
+			text-align: center;
+
+			li:last-of-type {
+				margin-right: 0;
+			}
+
+			li {
+				display: inline-block;
+				padding: 2rem 2rem 2rem 2rem;
+			}
+
+			.fa {
+				// font-size: 1.3rem;
+				color: white;
+
+				&:hover {
+					color: darken(darkgray, 25%);
+					transition: color 0.3s ease-in;
+				}
+			}
 		}
 	}
 }
