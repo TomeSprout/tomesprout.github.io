@@ -1,37 +1,38 @@
-.card-display {
+.card-grid {
 	display: grid;
 	gap: 2rem;
+  grid-auto-columns: 1fr;
 	grid-template-areas: 'logo1 logo1 card1' 'logo2 logo2 card2' 'logo3 logo3 card3';
-	padding-block: 2rem;
-  width: min(95%, 50rem);
 	margin-inline: auto;
+	padding-block: 2rem;
+	width: min(95%, 50rem);
 }
 
 .card {
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.2);
-  text-align: center;
+	text-align: center;
 	transition: 0.3s;
 
 	&:hover {
 		box-shadow: 0 8px 16px 0 rgba($color: #000000, $alpha: 0.2);
 	}
-}
 
-.card:nth-child(1) {
-	grid-area: card1;
-}
+	&:nth-child(1) {
+		grid-area: card1;
+	}
 
-.card:nth-child(2) {
-	grid-area: card2;
-}
+	&:nth-child(2) {
+		grid-area: card2;
+	}
 
-.card:nth-child(3) {
-	grid-area: card3;
+	&:nth-child(3) {
+		grid-area: card3;
+	}
 }
 
 .holder {
-	background-color: rgb(8, 18, 80);
+	background-color: #070e3f;
 	border-radius: 5px 5px 0 0;
 	height: 0;
 	padding-top: 100%;
