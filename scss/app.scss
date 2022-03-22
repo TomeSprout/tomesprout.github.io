@@ -1,19 +1,27 @@
-@import "layout/footer";
-@import 'pages/home';
+@use 'core/reset';
+@use 'utilities/variables';
+@use 'layout/footer';
+@use 'pages/home';
+@use 'pages/dailyui';
 
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap");
 
 body {
-	background-color: rgb(161, 162, 167);
+	background-color: #aeb0b9;
 	font-family: "Source Sans Pro", sans-serif;
+}
+
+main {
+	min-height: 100vh;
+	margin-bottom: -100px;
+}
+
+.push {
+	height: 100px;
 }
 
 a {
 	text-decoration: none;
-
-	// :active {
-	// 	color: rgb(39, 3, 39);
-	// }
 
 	&:hover {
 		color: rgb(97, 98, 102);
