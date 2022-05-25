@@ -4,10 +4,13 @@
 	align-items: center;
 	bottom: 0;
 	display: flex;
-	height: 135px;
+	height: 87px;
 	justify-content: center;
 	position: fixed;
 	width: 100vw;
+	@media (min-width: variables.$breakpoint-desktop) {
+		height: 120px;
+	}
 
 	.footer-social-icons {
 		background: #5e699b;
@@ -32,7 +35,7 @@
 			}
 
 			@media (min-width: variables.$breakpoint-desktop) {
-				font-size: 5rem;
+				font-size: 4rem;
 			}
 		}
 	}
